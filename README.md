@@ -8,7 +8,7 @@
 
 ---
 
-## 🚀 How to Run the Analysis
+## How to Run the Analysis
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -50,7 +50,7 @@ Ensure the following CSV files are in the `data/` directory:
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 This project develops a machine learning model to predict tsunami occurrences following earthquakes using seismic and geographic features. Given the critical importance of early warning systems for coastal populations, the goal is to create a reliable classifier that can identify high-risk earthquake events in real-time.
 
@@ -62,7 +62,7 @@ This project develops a machine learning model to predict tsunami occurrences fo
 
 ---
 
-## 📁 Dataset Description
+## Dataset Description
 
 The analysis combines two earthquake datasets covering events from 1995-2023:
 
@@ -84,7 +84,7 @@ The analysis combines two earthquake datasets covering events from 1995-2023:
 
 ---
 
-## 🔍 Methodology
+## Methodology
 
 ### 1. Exploratory Data Analysis (EDA)
 - **Magnitude vs Depth Analysis**: Tsunamis predominantly occur with shallow earthquakes (<100 km depth)
@@ -115,7 +115,7 @@ Grid search over:
 
 ---
 
-## 📈 Key Results
+## Key Results
 
 ### Model Performance (Test Set)
 | Metric | Baseline | XGBoost |
@@ -142,7 +142,7 @@ Grid search over:
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 The notebook includes comprehensive visualizations:
 - **Magnitude vs Depth**: Scatter plot showing tsunami event patterns
@@ -156,7 +156,7 @@ The notebook includes comprehensive visualizations:
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 ### Predictive Power Improvements
 - Incorporate fault type and rupture characteristics
@@ -179,7 +179,7 @@ The notebook includes comprehensive visualizations:
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **Data Processing**: pandas, numpy
 - **Visualization**: matplotlib, seaborn
@@ -189,13 +189,7 @@ The notebook includes comprehensive visualizations:
 
 ---
 
-## 📝 License
-
-This project is part of academic coursework at Brown University (DATA1030).
-
----
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - USGS Earthquake Database for providing comprehensive seismic data
 - DATA1030 course staff for guidance and support
