@@ -12,27 +12,49 @@
 
 ### Prerequisites
 - Python 3.8 or higher
-- Jupyter Notebook or JupyterLab
+- Git (for cloning the repository)
 
 ### Installation Steps
 
-1. **Clone the repository** (if applicable):
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/JustinXre2020/Earthquake-Tsunami.git
    cd Earthquake-Tsunami
    ```
 
-2. **Install required packages**:
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn xgboost
+2. **Set up Python Virtual Environment**:
+
+   **For Windows (PowerShell):**
+   ```powershell
+   # Create virtual environment
+   python -m venv data1030
+   
+   # Activate virtual environment
+   .\data1030\Scripts\Activate.ps1
+   
+   # Upgrade pip
+   python -m pip install --upgrade pip
+   
+   # Install required packages
+   pip install pandas numpy matplotlib seaborn scikit-learn xgboost jupyter
    ```
 
-3. **Navigate to the project directory**:
+   **For macOS/Linux (Bash/Zsh):**
    ```bash
-   cd /path/to/project
+   # Create virtual environment
+   python3 -m venv data1030
+   
+   # Activate virtual environment
+   source data1030/bin/activate
+   
+   # Upgrade pip
+   python -m pip install --upgrade pip
+   
+   # Install required packages
+   pip install pandas numpy matplotlib seaborn scikit-learn xgboost jupyter
    ```
 
-4. **Launch Jupyter Notebook**:
+3. **Launch Jupyter Notebook** (with virtual environment activated):
    ```bash
    jupyter notebook src/analysis.ipynb
    ```
@@ -41,7 +63,12 @@
    jupyter lab src/analysis.ipynb
    ```
 
-5. **Run all cells** in sequence using `Shift + Enter` or select `Cell > Run All` from the menu.
+4. **Run all cells** in sequence using `Shift + Enter` or select `Cell > Run All` from the menu.
+
+5. **Deactivate virtual environment** (when done):
+   ```bash
+   deactivate
+   ```
 
 ### Data Requirements
 Ensure the following CSV files are in the `data/` directory:
