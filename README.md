@@ -3,7 +3,7 @@
 **DATA1030 Final Project**  
 **Student:** Justin Xiao  
 **Institution:** Brown University  
-**Date:** October 24, 2025  
+**Date:** December 15, 2025  
 **GitHub Repository:** [Earthquake-Tsunami](https://github.com/JustinXre2020/Earthquake-Tsunami)
 
 ---
@@ -56,11 +56,11 @@
 
 3. **Launch Jupyter Notebook** (with virtual environment activated):
    ```bash
-   jupyter notebook src/analysis.ipynb
+   jupyter notebook src/source_code.ipynb
    ```
    Or use JupyterLab:
    ```bash
-   jupyter lab src/analysis.ipynb
+   jupyter lab src/source_code.ipynb
    ```
 
 4. **Run all cells** in sequence using `Shift + Enter` or select `Cell > Run All` from the menu.
@@ -71,7 +71,7 @@
    ```
 
 ### Data Requirements
-Ensure the following CSV files are in the `data/` directory:
+Ensure the following CSV files are in the `data/dataset/` directory:
 - `earthquake_1995-2023.csv`
 - `earthquake_data.csv`
 
